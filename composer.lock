@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "326b721ce27210b27a8348c63785724e",
+    "packages": [
+        {
+            "name": "rayatomsk/paddle-api",
+            "version": "v0.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RayAtomsk/paddle-api.git",
+                "reference": "f8f3d8ad07ca597f9c826d90b50d00218c41b352"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RayAtomsk/paddle-api/zipball/f8f3d8ad07ca597f9c826d90b50d00218c41b352",
+                "reference": "f8f3d8ad07ca597f9c826d90b50d00218c41b352",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Paddle": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrii Holubenko",
+                    "email": "rayatomsk@gmail.com",
+                    "homepage": "https://www.linkedin.com/in/andrii-holubenko-8a110264/",
+                    "role": "Full Stack Web Developer"
+                }
+            ],
+            "description": "Paddle.com API PHP library",
+            "homepage": "https://github.com/RayAtomsk/paddle-php",
+            "keywords": [
+                "api",
+                "paddle",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/RayAtomsk/paddle-api/issues",
+                "source": "https://github.com/RayAtomsk/paddle-api/tree/v0.6.1"
+            },
+            "time": "2022-04-05T20:32:36+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

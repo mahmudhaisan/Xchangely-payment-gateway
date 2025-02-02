@@ -1,0 +1,5 @@
+{
+    "require": {
+        "rayatomsk/paddle-api": "^0.6.1"
+    }
+}

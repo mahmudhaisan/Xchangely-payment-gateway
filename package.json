@@ -1,0 +1,31 @@
+{
+  "name": "wp-paymenttoy",
+  "version": "1.0.0",
+  "description": "WooCommerce Paddle Payment Getway for WordPress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserslist": [
+    "extends @wordpress/browserslist-config"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "@wordpress/browserslist-config": "^3.0.1",
+    "browser-sync": "^2.26.14",
+    "browserslist": "^4.16.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-terser": "^2.0.1",
+    "gulp-zip": "^5.0.2",
+    "node-sass": "^5.0.0"
+  }
+}
